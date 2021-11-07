@@ -67,8 +67,17 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // console.log(i);
 // }
 //For loop
-for(let i=0; i<=10; i++){
-if(i=== 4){
-  console.log(i);
-}
-}
+// for(let i=1; i<=10; i++){
+// if(i=== 4){
+//   console.log(i);
+//   break;
+// }
+// console.log('vdsfvsjhdds');
+// }
+//array
+let array1 =['item1','item2','item3'];
+//let array2 = ['item4','item5','item6'];
+//array1.push(array2);
+let array2 = [].concat(array1);
+array1.push('itemX');
+console.log(array2);
